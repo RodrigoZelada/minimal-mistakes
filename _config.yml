@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Página de Rodrigo"
+title                    : "Pagina de Rodrigo"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Rodrigo Andre Zelada Mancini"
@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Rodrigo Andre Zelada Mancini"
-  avatar           : "https://avatars0.githubusercontent.com/u/63885259?s=460&u=f53cdf077f25570dcfbf4e2a239e9123926381f5&v=4"
+  avatar           : # "https://avatars0.githubusercontent.com/u/63885259?s=460&u=f53cdf077f25570dcfbf4e2a239e9123926381f5&v=4"
   bio              : "EDPs. Machine Learning. Optimization."
   location         : "Santiago, cHILE"
   email            :  "rodrigo.zelada@ug.uchile.cl"
