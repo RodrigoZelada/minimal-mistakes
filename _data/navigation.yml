@@ -4,7 +4,7 @@ main:
      url: /about/
   - title: "resume"
      url: /resume/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+   - title: "Defensa"
+     url: /DefensaDeTesis/
   # - title: "Sitemap"
   #   url: /sitemap/
