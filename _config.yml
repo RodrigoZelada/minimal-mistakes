@@ -94,9 +94,9 @@ analytics:
 # Site Author
 author:
   name             : "Rodrigo Andre Zelada Mancini"
-  avatar           : # "https://avatars0.githubusercontent.com/u/63885259?s=460&u=f53cdf077f25570dcfbf4e2a239e9123926381f5&v=4"
+  avatar           : "images/fotoLinkedin.jpg"
   bio              : "EDPs. Machine Learning. Optimization."
-  location         : "Santiago, cHILE"
+  location         : "Santiago, Chile"
   email            :  "rodrigo.zelada@ug.uchile.cl"
   links:
     - label: "Email"
