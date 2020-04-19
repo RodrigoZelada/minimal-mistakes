@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "About"
-     url: /about/
-  - title: "resume"
+  #- title: "About"
+   #  url: /about/
+  #- title: "resume"
+   #  url: /resume/
+   #- title: "Defensa"
+    # url: /DefensaDeTesis/
+   - title: "Resume"
      url: /resume/
-   - title: "Defensa"
-     url: /DefensaDeTesis/
-  # - title: "Sitemap"
-  #   url: /sitemap/
