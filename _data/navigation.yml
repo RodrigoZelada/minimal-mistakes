@@ -1,10 +1,6 @@
 # main links
 main:
-  #- title: "About"
-   #  url: /about/
-  #- title: "resume"
-   #  url: /resume/
-   #- title: "Defensa"
-    # url: /DefensaDeTesis/
    - title: "Resume"
      url: https://rodrigozelada.github.io/resume/
+   - title: "Resume"
+     url: https://rodrigozelada.github.io/DefensaDeTesis/
