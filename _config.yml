@@ -98,7 +98,7 @@ author:
   bio              : "EDPs. Machine Learning. Optimization."
   location         : "Santiago, Chile"
   email            :  "rodrigo.zelada@ug.uchile.cl"
-  github           : "RodrigoZelada"
+  #github           : "RodrigoZelada"
   linkedin         : "rodrigo-andre-zelada-mancini-b15553184"
   links:
     - label: "Email"
@@ -115,10 +115,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/RodrigoZelada"
+      url: "https://github.com/RodrigoZelada"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      #url: "https://instagram.com/"
 
 # Site Footer
 footer:
