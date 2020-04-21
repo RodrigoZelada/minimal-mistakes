@@ -1,10 +1,6 @@
 # main links
 main:
-   #- title: "Resume"
-     #url: https://rodrigozelada.github.io/resume/
-   #- title: "Presentacion"
-     #url: https://rodrigozelada.github.io/DefensaDeTesis/
-    - title: "English"
-      url: https://rodrigozelada.github.io/en/
-    - title: "Spanish"
-      url: https://rodrigozelada.github.io/es/
+   - title: "Resume"
+     url: https://rodrigozelada.github.io/resume/
+   - title: "Presentacion"
+     url: https://rodrigozelada.github.io/DefensaDeTesis/
