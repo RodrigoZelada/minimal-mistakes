@@ -10,6 +10,7 @@ Now, we are going to review the most famous forecasting techniques.
 
 <ul>
   <li>Naive-forecast</li>
+  <li>Moving Average</li>
   <li>Statistical models: ARMA, ARIMA and SARIMA </li>
   <li>Deep learning: Recurrent Neural Networks (RNN), Long Short Term Memory</li>
 </ul>
