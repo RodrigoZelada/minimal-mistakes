@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Rodrigo Andre Zelada Mancini"
-  avatar           : "images/fotoLinkedinRecortada.png" #"images/fotoLinkedin.jpg"
+  avatar           : "images/glaciar.jpeg" #"images/fotoLinkedin.jpg"
   bio              : "Mathematical Mechanics, Inverse problems, Shape Optimization and Deep Learning."
   location         : "Santiago, Chile"
   email            :  "rodrigo.zelada@ug.uchile.cl"
