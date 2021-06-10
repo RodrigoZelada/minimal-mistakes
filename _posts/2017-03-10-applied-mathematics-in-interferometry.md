@@ -9,8 +9,11 @@ This is based on
     <li><i>High resolution interferometry in ALMA by Simon Casassus, Pablo Roman, Axel Osses and Jorge Silva</i>. </li>
 </ul>
 
-<b1> Problem statement </b1>
-Let be $(V_k)_{k=1} ^n$ a visibility vector and $(I_k)_{k=1} ^n$ the image vector that we can reconstruct. The main idea is using the fact that visibilities are known and how we want to get the best possible image, we write the problem as an optimization problem:
+<h1> Problem statement </h1>
+
+Let be $(V_k)_{k=1} ^n$ 
+a visibility vector and $(I_k)_{k=1} ^n$ 
+the image vector that we can reconstruct. The main idea is using the fact that visibilities are known and how we want to get the best possible image, we write the problem as an optimization problem:
 The image maximum a posteriori (MAP) it's the following:
 
 $$\hat{I_{MAP}} = argmax_{I} \mathbb{P}(I|V)$$
