@@ -10,7 +10,7 @@ This is based on
 </ul>
 
 
-$$X^2$$ 
+$X^2$ 
 
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/ALMA.jpg" alt="hi" class="inline"/>
