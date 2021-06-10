@@ -18,7 +18,6 @@ $$\hat{I}_{MAP} = argmax_{I} \mathbb{P}(I|V)$$
 
 From Bayes formula, we have that 
 $$\mathbb{P}(I|V) = \frac{\mathbb{P}(V|I)\mathbb{P}(I)}{\mathbb{P}(V)}$$
-\\[\mathbb{P}(I|V) = \frac{\mathbb{P}(V|I)\mathbb{P}(I)}{\mathbb{P}(V)}\\]
 and how we are maximizing with respect to I, the optimization problem is equivalent to
 
 $$\hat{I}_{MAP} = argmax_{I} \mathbb{P}(V|I)\mathbb{P}(I)$$
