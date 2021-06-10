@@ -14,18 +14,18 @@ This is based on
 Let be $V$ a visibility vector of dimension $k$, and $I$ the image vector that we can reconstruct of dimension $k$. The main idea is using the fact that visibilities are known and how we want to get the best possible image, we write the problem as an optimization problem:
 The image maximum a posteriori (MAP) it's the following:
 
-$$\hat{I_{MAP}} = argmax_{I} \mathbb{P}(I|V)$$
+$$\hat{I}_{MAP} = argmax_{I} \mathbb{P}(I|V)$$
 
 From Bayes formula, we have that 
 $$\mathbb{P}(I|V) = \frac{\mathbb{P}(V|I)\mathbb{P}(I)}{\mathbb{P}(V)}$$
 \\[\mathbb{P}(I|V) = \frac{\mathbb{P}(V|I)\mathbb{P}(I)}{\mathbb{P}(V)}\\]
 and how we are maximizing with respect to I, the optimization problem is equivalent to
 
-$$\hat{I_{MAP}} = argmax_{I} \mathbb{P}(V|I)\mathbb{P}(I)$$
+$$\hat{I}_{MAP} = argmax_{I} \mathbb{P}(V|I)\mathbb{P}(I)$$
 
 Using that logarithm is a strictly increasing function
 
-$$\hat{I_{MAP}} = argmax_{I} log(\mathbb{P}(V|I)) + log(\mathbb{P}(I))$$
+$$\hat{I}_{MAP} = argmax_{I} log(\mathbb{P}(V|I)) + log(\mathbb{P}(I))$$
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/ALMA.jpg" alt="hi" class="inline"/>
 
