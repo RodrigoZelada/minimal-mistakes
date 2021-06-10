@@ -39,11 +39,11 @@ Mean error are respectively, Moving Average 1163.57, LST 443.72 and Prophet 885.
 <table>
   <thead>
     <tr style="text-align: right;">
-      <th></th>
+      <th>date</th>
       <th>daily_infected</th>
       <th>ma</th>
       <th>prophet</th>
-      <th>tf</th>
+      <th>RNN (tf)</th>
     </tr>
   </thead>
   <tbody>
@@ -102,10 +102,10 @@ Mean error are respectively, Moving Average 1163.57, LST 443.72 and Prophet 885.
 <table>
   <thead>
     <tr style="text-align: right;">
-      <th></th>
+      <th>date</th>
       <th>ma</th>
       <th>prophet</th>
-      <th>tf</th>
+      <th>RNN (tf)</th>
     </tr>
   </thead>
   <tbody>
