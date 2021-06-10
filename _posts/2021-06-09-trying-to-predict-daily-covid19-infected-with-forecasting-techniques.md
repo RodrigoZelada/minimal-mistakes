@@ -28,14 +28,6 @@ Now, we are going to apply some forecasting techniques in order to predict daily
 
 <h1> Comparison </h1>
 
-<img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/test.png" alt="hi" class="inline"/>
-
-Mean error are respectively, Moving Average 1163.57, LST 443.72 and Prophet 885.08. This is consistent with what we observe in the figure, that LSTM with Tensrflow seems to be the most accurate.
-
-<h1> Predictions for next week </h1>
-
-<img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/predictions.png" alt="hi" class="inline"/>
-
 <table>
   <thead>
     <tr style="text-align: right;">
@@ -98,6 +90,15 @@ Mean error are respectively, Moving Average 1163.57, LST 443.72 and Prophet 885.
     </tr>
    </tbody>
 </table>
+
+
+<img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/test.png" alt="hi" class="inline"/>
+
+Mean error are respectively, Moving Average 1163.57, LST 443.72 and Prophet 885.08. This is consistent with what we observe in the figure, that LSTM with Tensrflow seems to be the most accurate.
+
+<h1> Predictions for next week </h1>
+
+<img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/predictions.png" alt="hi" class="inline"/>
 
 <table>
   <thead>
