@@ -29,49 +29,49 @@ Now, we are going to review the most famous forecasting techniques.
     <tr>
       <th>2021-06-10</th>
       <td>8150</td>
-      <td>7248</td>
+      <td>7241</td>
       <td>7119</td>
       <td>7735</td>
     </tr>
     <tr>
       <th>2021-06-11</th>
       <td>8273</td>
-      <td>7248</td>
+      <td>7243</td>
       <td>7604</td>
       <td>8032</td>
     </tr>
     <tr>
       <th>2021-06-12</th>
       <td>8867</td>
-      <td>7248</td>
+      <td>7253</td>
       <td>7406</td>
       <td>8147</td>
     </tr>
     <tr>
       <th>2021-06-13</th>
       <td>7768</td>
-      <td>7248</td>
+      <td>7253</td>
       <td>7125</td>
       <td>7742</td>
     </tr>
     <tr>
       <th>2021-06-14</th>
       <td>6958</td>
-      <td>7248</td>
+      <td>7253</td>
       <td>6327</td>
       <td>7728</td>
     </tr>
     <tr>
       <th>2021-06-15</th>
       <td>5568</td>
-      <td>7248</td>
+      <td>7252</td>
       <td>5024</td>
       <td>5955</td>
     </tr>
     <tr>
       <th>2021-06-16</th>
       <td>5369</td>
-      <td>7248</td>
+      <td>7249</td>
       <td>5280</td>
       <td>6484</td>
     </tr>
