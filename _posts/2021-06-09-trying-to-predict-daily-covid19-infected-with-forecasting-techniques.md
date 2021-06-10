@@ -8,7 +8,19 @@ This examples are very known and establish how important is to make an acurrate 
 
 Now, we are going to apply some forecasting techniques.
 
+<img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/naive.png" alt="hi" class="inline"/>
+
+<img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/ma.png" alt="hi" class="inline"/>
+
+<img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/prophet.png" alt="hi" class="inline"/>
+
+<img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/loss_function.png" alt="hi" class="inline"/>
+
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/tensorflow.png" alt="hi" class="inline"/>
+
+<img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/test.png" alt="hi" class="inline"/>
+
+<img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/predictions.png" alt="hi" class="inline"/>
 
 <table border="1" class="dataframe">
   <thead>
