@@ -6,19 +6,31 @@ Also, forecasting has application in political elections.
 This examples are very known and establish how important is to make an acurrate forecast.
 
 
-Now, we are going to apply some forecasting techniques in order to predict daily infected Covid-19 people in Chile (with real data, provided by the science ministery, https://www.minciencia.gob.cl/covid19/). For simplicity reasons, the analysis will be considering only one variable, the time (Time Series). If we wanted to improve the results, would be necessary to consider other variables like PCRs took each day. 
+Now, we are going to apply some forecasting techniques in order to predict daily infected Covid-19 people in Chile (with real data, provided by the science ministery, https://www.minciencia.gob.cl/covid19/). For simplicity reasons, the analysis will be considering only one variable, the time (Time Series). If we wanted to improve the results, would be necessary to consider other variables (exogenous) like PCRs took each day or if there is restrictions or not. 
+
+<h1> Naive forecast </h1>
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/naive.png" alt="hi" class="inline"/>
 
+<h1> Moving average </h1>
+
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/ma.png" alt="hi" class="inline"/>
 
+<h1> Prophet </h1>
+
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/prophet.png" alt="hi" class="inline"/>
+
+<h1> Recurrent Neural Networks (RNN) - LSTM </h1>
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/loss_function.png" alt="hi" class="inline"/>
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/tensorflow.png" alt="hi" class="inline"/>
 
+<h1> Comparison </h1>
+
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/test.png" alt="hi" class="inline"/>
+
+<h1> Predictions for next week </h1>
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/predictions.png" alt="hi" class="inline"/>
 
