@@ -8,7 +8,7 @@ This examples are very known and establish how important is to make an acurrate 
 
 Now, we are going to apply some forecasting techniques.
 
-<img src="img/tensorflow.PNG" class="img-responsive" alt=""> </div>
+<img src="images/tensorflow.PNG" class="img-responsive" alt=""> </div>
 
 <table border="1" class="dataframe">
   <thead>
