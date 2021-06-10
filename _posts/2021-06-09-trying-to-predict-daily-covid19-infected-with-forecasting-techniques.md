@@ -35,50 +35,50 @@ Now, we are going to apply some forecasting techniques.
   <tbody>
     <tr>
       <th>2021-06-03</th>
-      <td>8150.0</td>
-      <td>7225.857143</td>
+      <td>8150</td>
+      <td>7226</td>
       <td>6933</td>
       <td>8259</td>
     </tr>
     <tr>
       <th>2021-06-04</th>
-      <td>8273.0</td>
-      <td>7167.714286</td>
+      <td>8273</td>
+      <td>7168</td>
       <td>7420</td>
       <td>8370</td>
     </tr>
     <tr>
       <th>2021-06-05</th>
-      <td>8867.0</td>
-      <td>7230.714286</td>
+      <td>8867</td>
+      <td>7231</td>
       <td>7184</td>
       <td>8044</td>
     </tr>
     <tr>
       <th>2021-06-06</th>
-      <td>7768.0</td>
-      <td>7230.142857</td>
+      <td>7768</td>
+      <td>7230</td>
       <td>6945</td>
       <td>7622</td>
     </tr>
     <tr>
       <th>2021-06-07</th>
-      <td>6958.0</td>
-      <td>7241.000000</td>
+      <td>6958</td>
+      <td>7241</td>
       <td>6173</td>
       <td>5992</td>
     </tr>
     <tr>
       <th>2021-06-08</th>
-      <td>5568.0</td>
-      <td>7316.428571</td>
+      <td>5568</td>
+      <td>7316</td>
       <td>4914</td>
       <td>4860</td>
     </tr>
     <tr>
       <th>2021-06-09</th>
-      <td>5369.0</td>
-      <td>7279.000000</td>
+      <td>5369</td>
+      <td>7279</td>
       <td>5184</td>
       <td>5110</td>
     </tr>
