@@ -36,7 +36,7 @@ Mean error are respectively, Moving Average 1163.57, LST 443.72 and Prophet 885.
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/predictions.png" alt="hi" class="inline"/>
 
-<table border="1" class="dataframe">
+<table>
     <tr style="text-align: right;">
       <th></th>
       <th>daily_infected</th>
