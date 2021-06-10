@@ -8,6 +8,11 @@ This is based on
   <li><i>GPUVMEM: Maximum Entropy Method (MEM) GPU algorithm for radio astronomical image synthesis by Miguel Cárcamo, Nicolás Muñoz, Fernando Rannou, Pablo Román, Simón Casassus, Axel Osses and Victor Moral</i> </li>
     <li><i>High resolution interferometry in ALMA by Simon Casassus, Pablo Roman, Axel Osses and Jorge Silva</i>. </li>
 </ul>
+
+
+$$X^2$$ 
+
+
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/ALMA.jpg" alt="hi" class="inline"/>
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/todas.png" alt="hi" class="inline"/>
