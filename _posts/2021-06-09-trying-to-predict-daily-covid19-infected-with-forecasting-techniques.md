@@ -6,7 +6,7 @@ Also, forecasting has application in political elections.
 This examples are very known and establish how important is to make an acurrate forecast.
 
 
-Now, we are going to apply some forecasting techniques.
+Now, we are going to apply some forecasting techniques in order to predict daily infected Covid-19 people in Chile (with real data, provided by the science ministery, https://www.minciencia.gob.cl/covid19/) 
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/naive.png" alt="hi" class="inline"/>
 
