@@ -18,7 +18,7 @@ Now, we are going to apply some forecasting techniques in order to predict daily
 
 <h1> Prophet </h1>
 
-<img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/prophet.png" width="12" height="6" alt="hi" class="inline"/>
+<img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/prophet.png" width="200" height="100" alt="hi" class="inline"/>
 
 <h1> Recurrent Neural Networks (RNN) - LSTM </h1>
 
