@@ -16,6 +16,7 @@ The image maximum a posteriori (MAP) it's the following:
 
 $$\hat{I_{MAP}} = argmax_{I} \mathbb{P}(I|V)$$
 
+fraction $\frac{1}{2}$
 From Bayes formula, we have that $$\mathbb{P}(I|V) = \frac{\mathbb{P}(V|I)\mathbb{P}(I)}{\mathbb{P}(V)}$$, and how we are maximizing with respect to I, the optimization problem is equivalent to
 
 $$\hat{I_{MAP}} = argmax_{I} \mathbb{P}(V|I)\mathbb{P}(I)$$
