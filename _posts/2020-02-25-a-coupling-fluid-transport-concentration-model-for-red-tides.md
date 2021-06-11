@@ -15,12 +15,18 @@ and that it's the velocity. What value of velocity use? because it's the tide ve
 
 $$\begin{align}
 \displaystyle{\frac{\partial u}{\partial t} + (u \cdot \nabla) u - \nu \Delta u}  & =    - \displaystyle{\nabla \frac{p}{\rho} + \frac{f}{\rho}} 
-\textrm{ en } \; \Omega 
+\textrm{ on} \; \Omega 
 \label{eqn: EcuacionesNavierStokes}\\
-\nabla \cdot u & =  0  \textrm{ en } \; \Omega 
+\nabla \cdot u & =  0  \textrm{ on } \; \Omega 
 \label{eqn: DivergenciaNula}
-\end{align}
-$$
+\end{align}$$
+
+where
+<ul>
+    <li> $f$ force per volume unit. </li>
+    <li> $\nu$ fluid kinematic viscosity. </li>
+    <li> $\rho$ fluid density. </li>
+</ul> 
 
 At first sight, the equations look similar, but the Navier-Stokes equations are 3D, while the convection-diffusion equation es 1D. 
 The velocity it's a vector field, while concentration it's a scalar field.
