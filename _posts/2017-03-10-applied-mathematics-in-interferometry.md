@@ -76,14 +76,14 @@ We put 2 differents figures, with and without entropy.
 
 <center>
   <figure>
-      <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/M%3D05M0.png" alt="missing"/>
+      <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/M%3D05M0.png" alt="missing" width="500" height="250"/>
       <figcaption>MEM considering entropy.</figcaption>
     </figure> 
   </center>
 
 <center>
   <figure>
-    <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/SEM%3D05M0.png" alt="missing"/>
+    <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/SEM%3D05M0.png" alt="missing" width="500" height="250"/>
     <figcaption>MEM without entropy.</figcaption>
   </figure> 
  </center>
