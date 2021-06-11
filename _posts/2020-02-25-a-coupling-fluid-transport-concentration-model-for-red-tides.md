@@ -99,6 +99,6 @@ Like we said at first, The Navier-Stokes equations are very complicated to solve
       <li> On the boundaries that there are not a Dirichlet boundary condition for the velocity, the pressure must be given, ie, Dirichlet boundary condition for the pressure.  </li>
   </ul>
   
-  In this way, we get as many equations as we want 
-
-<h3> Convection-diffusion discrezitation </h3>
+  In this way, we get as many equations as we want.
+  
+  If you want to see the results and study in more details this topics, take a look to my <a href="https://rodrigozelada.github.io/DefensaDeTesis">Master Thesis Presentation</a>.
