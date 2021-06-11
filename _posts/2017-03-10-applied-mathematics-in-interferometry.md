@@ -72,7 +72,8 @@ $$ V_k ^r = V_k ^O - \sum_{k=1} ^n f_{k, j} I_j $$
 
 <h1> Results </h1>
 
-We put 2 differents figures, with and without entropy.
+Now, we are ables to recontruct the image from radio astronomical data. In order to read the data we use SQL and solve the minimization problem with Gradient Descent algorithm.
+We put 2 differents figures, with and without entropy and the image together with his respective noise.
 
 <center>
   <figure>
