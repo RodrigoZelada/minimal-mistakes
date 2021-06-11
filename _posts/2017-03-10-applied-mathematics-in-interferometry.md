@@ -72,12 +72,16 @@ $$ V_k ^r = V_k ^O - \sum_{k=1} ^n f_{k, j} I_j $$
 
 <h1> Results </h1>
 
-<figure>
-  <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/todas.png" alt="hi" class="inline"/>
-  <figcaption>ALMA Observatory.</figcaption>
-</figure> 
+We put 2 differents figures, with and without entropy.
 
 <figure>
   <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/M%3D05M0.png" alt="hi" class="inline"/>
-  <figcaption>ALMA Observatory.</figcaption>
+  <figcaption>MEM considering entropy.</figcaption>
 </figure> 
+
+<figure>
+  <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/SEM%3D05M0.png" alt="hi" class="inline"/>
+  <figcaption>MEM without entropy.</figcaption>
+</figure> 
+
+Note how to the entropy function affects the noise.
