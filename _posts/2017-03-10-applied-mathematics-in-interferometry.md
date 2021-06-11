@@ -88,4 +88,4 @@ We put 2 differents figures, with and without entropy.
   </figure> 
  </center>
 
-Note how to the entropy function affects the noise.
+Note how to the entropy function affects the noise. When we consider the entropy function, the noise is greater than we don't.
