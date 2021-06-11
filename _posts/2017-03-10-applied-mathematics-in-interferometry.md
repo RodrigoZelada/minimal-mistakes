@@ -74,14 +74,18 @@ $$ V_k ^r = V_k ^O - \sum_{k=1} ^n f_{k, j} I_j $$
 
 We put 2 differents figures, with and without entropy.
 
-<figure>
-  <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/M%3D05M0.png" alt="hi" class="inline"/>
-  <figcaption>MEM considering entropy.</figcaption>
-</figure> 
+<center>
+  <figure>
+      <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/M%3D05M0.png" alt="hi" class="inline"/>
+      <figcaption>MEM considering entropy.</figcaption>
+    </figure> 
+  </center>
 
-<figure>
-  <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/SEM%3D05M0.png" alt="hi" class="inline"/>
-  <figcaption>MEM without entropy.</figcaption>
-</figure> 
+<center>
+  <figure>
+    <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/SEM%3D05M0.png" alt="hi" class="inline"/>
+    <figcaption>MEM without entropy.</figcaption>
+  </figure> 
+ </center>
 
 Note how to the entropy function affects the noise.
