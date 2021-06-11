@@ -5,22 +5,44 @@ Another example is the weather, because today, we want to know the weather of to
 Also, forecasting has application in political elections. 
 This examples are very known and establish how important is to make an acurrate forecast.
 
+Forecast is not an easy problem, because the time component, ie, it's not a typical fitting problem. Because the data of today, could depend on yesterday data, 
+but also whole week before, and moreover, in which proportions is it this dependence? maybe not all days has the same weight. 
+Often the data has <strong>stationality</strong>. For example, sales of pools or ice creams increase at summer, and decrease at winter.
+There is another forecast component, and this is the <strong>trend</strong>. Imagine a business that is doing very well, this would be like a linear function,
+then the trend it's like the revenues are always increasing.
 
 Now, we are going to apply some forecasting techniques in order to predict daily infected Covid-19 people in Chile (with real data, provided by the science ministery, https://www.minciencia.gob.cl/covid19/). For simplicity reasons, the analysis will be considering only one variable, the time (Time Series). If we wanted to improve the results, would be necessary to consider other variables (exogenous) like PCRs took each day or if there is restrictions or not. 
 
 <h1> Naive forecast </h1>
 
+The simplest model is the Naive forecast, that such as his name indicate, it's naive because try to forecast duplicating values. 
+For example, to predict the daily Covid-19 infected people for tomorrow an options it's use the value of today. 
+If we have certain knowledge about our data, we can improve this Naive forecast. In this case, we observe a week seasonality, 
+if we want to predict tomorrow infected, we use the data of seven previous days.
+
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/naive.png" alt="hi" class="inline"/>
 
 <h1> Moving average </h1>
+
+Moving Average (MA) is an algorithm to smooth the fluctuations. The values are computed averaging in <i>windows</i> of data. 
+For example, a Moving Average with $p=7$ days, it's that tomorrow prediction is computed averaging the seven previous days.
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/ma.png" alt="hi" class="inline"/>
 
 <h1> Prophet </h1>
 
+Prophet it's a powerful tool provided by Facebook. The main idea it's split the forecast components in trend, seasonality and residual.
+To get more details, review <a href="https://peerj.com/preprints/3190.pdf">this article</a>.
+
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/prophet.png" width="500" height="250" alt="hi" class="inline"/>
 
 <h1> Recurrent Neural Networks (RNN) - LSTM </h1>
+
+Recurrent Neural Networks is a Deep Learning algorithm for fitting Time Series. It's recurrent because the "Seasonality".
+In simple words, it's a neural network with a specific architecture. In particular, we use the LSTM algorithm, that stands for
+<i>Long Short Term Memory</i> (there are others RNN algoritms like <i>GRU</i>).
+
+We observe first the lost function, that it's crearly decreasing. The next figure it's the fitting, using the LSTM algorithm.
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/loss_function.png" alt="hi" class="inline"/>
 
