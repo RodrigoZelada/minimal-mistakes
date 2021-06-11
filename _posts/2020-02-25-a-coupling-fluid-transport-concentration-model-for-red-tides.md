@@ -65,6 +65,8 @@ Integrating over $\omega_i$,
 \end{array} $$ </p>
 </ul>
 
+So, the convection - diffusion equations becomes a matrix equations, that is easy to solve numerically.
+
 <h3> Navier-stokes discretization </h3>
 
 Notation: $u = (U, V, W)$ the velocity vector field.
@@ -73,49 +75,30 @@ where $z$ is the sea depth and $g$ gravity acceleration.
 We can integrate over $\omega_i$ and apply the Divergence Theorem and using similar arguments to above, but that is not enough.
 Like we said at first, The Navier-Stokes equations are very complicated to solve. Still there are some issues to handle
 
-<h4>Complicaciones adicionales Navier-Stokes</h4>
-                                  <ol>
-                                  <li> El término convectivo es no lineal, luego para escribir el sistema matricial se realizan iteraciones tipo punto fijo. </li>
-                                  <li> Faltan ecuaciones. No hay ecuación para la presión.</li>
-                                  </ol>
-                                  <p>La presión se define como: </p>
-                                  <ul>
-                                      <li> En cada volumen la presión es incógnita. Acá tienen asociadas la condición de divergencia nula. </li>
-                                      <li> En los bordes en que hay condición de borde Dirichlet para la velocidad, hay una presión incógnita en las caras de dicho borde. </li>
-                                      <li> En los bordes en que NO hay condición de borde Dirichlet para la velocidad, la presión debe ser dato. </li>
-                                  </ul>
-                                  <p>Así se consiguen tantas ecuaciones como incógnitas.</p>
-						   </section>
-
-						   <section>
-						       <h4>Sistema matricial de Navier-Stokes</h4>
-                               <p>Para una cierta etapa temporal $k \in \mathbb{N}$ fija y para cada $\ell \in \mathbb{N}$, el sistema de ecuaciones se escribe en forma matricial a continuación
-                              \begin{equation*}
-                              \begin{bmatrix}
-                              A_{UU} & 0_{N\times N} & 0_{N \times N} & A_{UP} \\
-                              0_{N \times N} & A_{VV} & 0_{N \times N} & A_{VP} \\
-                              0_{N \times N} & 0_{N \times N} & A_{WW} & A_{WP} \\
-                              A^T_{UP} & A^T_{VP} & A^T_{WP} & 0_{M \times N}
-                              \end{bmatrix}
-                              \begin{pmatrix}
-                              U^{k,\ell} \\
-                              V^{k,\ell} \\
-                              W^{k,\ell} \\
-                              P^{k,\ell}
-                              \end{pmatrix}
-                              = 
-                              \begin{pmatrix}
-                              b_{U} \\
-                              b_{V} \\
-                              b_{W} \\
-                              b_{P} \\
-                              \end{pmatrix}
-                              \end{equation*} 
-                              \[\begin{array}{cccl} 
-                                   \text{donde } & U^{k,\ell} & = & (U_1 ^{k,\ell},\ldots, U_N ^{k,\ell}) \\
-                                   & V^{k,\ell} & = & (V_1 ^{k,\ell},\ldots, V_N ^{k,\ell}) \\ 
-                                   & W^{k,\ell} & = & (W_1 ^{k,\ell},\ldots, W_N ^{k,\ell}) \\
-                                   & P^{k,\ell} & = & (P_1 ^{k,\ell},\ldots, P_N ^{k,\ell}, P_{N+1} ^{k,\ell} \ldots P_{M} ^{k,\ell}) \\
-                              \end{array}\]  </p>
+<h4>Additional complications of Navier-Stokes equations</h4>
+  <ol>
+  <li> The convective term is not linear, so in order to write a matrix equation. </li>
+  <li> There is not pressure equation, we need more equations!! .</li>
+  </ol>
+  
+  In the Finite Volume framework, the most used algorithms to solve the Navier-Stokes equations are called the Splitting methods, that consist basically in:
+  <ol>
+    <li> solve the equation for the velocity (fixing the pressure) </li>
+    <li> write a Laplacian equation for the pressure and solve it  </li>
+    <li> recorrect the velocity, computing again with the pressure obtained in the previous stage</li>
+  </ol>
+  
+  Look for example <strong>the SIMPLE</strong> and <strong>the PIMPLE algorithms</strong>.
+  Our approach it's a little different, we propose to solve only one big system instead of split the equations for pressure and velocity.
+  We need to have in mind that the pressure acts like a constraint (remember <strong>the De Rham Theorem</strong> for the Stokes equation). Thus,
+  
+  <p>We define the pressure as follows: </p>
+  <ul>
+      <li> In each Finite Volume the pressure it's unknown. Here, we associate the divergence free condition. </li>
+      <li> On the boundaries that there are a Dirichlet boundary condition for the velocity, there is an unknown pressure on the face of such boundary. </li>
+      <li> On the boundaries that there are not a Dirichlet boundary condition for the velocity, the pressure must be given, ie, Dirichlet boundary condition for the pressure.  </li>
+  </ul>
+  
+  In this way, we get as many equations as we want 
 
 <h3> Convection-diffusion discrezitation </h3>
