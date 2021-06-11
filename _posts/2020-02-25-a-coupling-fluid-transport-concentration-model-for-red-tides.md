@@ -13,10 +13,6 @@ Due to lack of data, we will use $F=0$.
 Great, we have an equation to compute concentration. We are ready...NO, that formulation hides a great difficulty, even harder than convection-diffusion equation,
 and that it's the velocity. What value of velocity use? because it's the tide velocity, and this depend of time and each point of our domain, would be difficult measuring this value. However, here is when appear the Hydrodynamic of our model: <b>the Navier-Stokes equations</b> allows to compute velocity.
 
-$$\displaystyle{\frac{\partial u}{\partial t} + (u \cdot \nabla) u - \nu \Delta u}  & =    - \displaystyle{\nabla \frac{p}{\rho} + \frac{f}{\rho}} 
-\textrm{ en } \; \Omega $$
-$$\nabla \cdot u & =  0  \textrm{ en } \; \Omega $$
-
 $$\begin{align}
 \displaystyle{\frac{\partial u}{\partial t} + (u \cdot \nabla) u - \nu \Delta u}  & =    - \displaystyle{\nabla \frac{p}{\rho} + \frac{f}{\rho}} 
 \textrm{ en } \; \Omega 
