@@ -52,17 +52,17 @@ Integrating over $\omega_i$,
     & \approx & \displaystyle{\frac{\left|\omega_i\right|}{\Delta t} (c_i ^k - c_i ^{k-1})}
     \end{array}$$ </p>
     <li> Convective term: </li> 
-     <p>$$\displaystyle{\int_{\omega_i}div(c u) d\omega \approx \sum_{\substack{j : \Gamma_{j} \text{ cara de } \omega_i \\
+     <p>$$\displaystyle{\int_{\omega_i}div(c u) d\omega \approx \sum_{\substack{j : \Gamma_{j}  \omega_i 's \text{ face } \\
      \Gamma_j \text{ intern face } \\
      (u^k \cdot n)(\Gamma_{j}) < 0}} (c_{j} ^k -c_i ^k) (u^k \cdot n) (\Gamma_{j}) \left|\Gamma_{j}\right| } $$ </p>
      <li> Diffusive term:</li>
      <p> $$ \begin{array}{ccll}
 \displaystyle{ \int_{\omega_i} \Delta U d\omega} 
-& \approx & \displaystyle{\sum_{\substack{j : \Gamma_{j} \text{ face of }  \omega_i \\  
+& \approx & \displaystyle{\sum_{\substack{j : \Gamma_{j} \omega_i 's \text{ face } \\  
        \Gamma_j \text{ intern face } }} D\frac{(c_{j} ^k - c_i ^k)}{d_c (\omega_i, \omega_{j})} \left|\Gamma_{j}\right| + 
-       \sum_{\substack{j : \Gamma_{j} \text{ face of }  \omega_i \\  
+       \sum_{\substack{j : \Gamma_{j} \omega_i 's \text{ face } \\  
        \Gamma_j \text{ boundary face } }} D\frac{(c_{\Gamma_j} ^k - c_i ^k)}{d_c (\omega_i, \Gamma_{j})} \left|\Gamma_{j}\right|} \\
-\end{array}\]</p>
+\end{array} $$ </p>
 </ul>
 
 <h3> Navier-stokes discretization </h3>
