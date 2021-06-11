@@ -73,7 +73,7 @@ Notation: $u = (U, V, W)$ the velocity vector field.
 We make a variable change $\displaystyle{P = \frac{p}{\rho} - g z}$, 
 where $z$ is the sea depth and $g$ gravity acceleration.
 We can integrate over $\omega_i$ and apply the Divergence Theorem and using similar arguments to above, but that is not enough.
-Like we said at first, The Navier-Stokes equations are very complicated to solve. Still there are some issues to handle
+Like we said at first, The Navier-Stokes equations are very complicated to solve. Still there are some issues to handle.
 
 <h4>Additional complications of Navier-Stokes equations</h4>
   <ol>
