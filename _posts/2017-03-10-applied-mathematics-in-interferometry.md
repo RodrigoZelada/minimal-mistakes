@@ -36,7 +36,13 @@ Assuming that are random variables, we have that
 $$\mathbb{P}(V|I) = \prod_{k=1} ^n exp(\frac{-(V_k - V_k ^O)^2}{2\sigma_k ^2})$$
 
 MEM algorithm assumes that the image follows a distribution $$\prod_{k=1} ^n (\frac{I_k}{M})^{-I_k}$$
-with $M$ the minimum value that can take a pixel.
+with $M$ the minimum value that can take a pixel. Therefore,
+
+$$\hat{I}_{MAP} = argmax_{I} \left(-\frac{1}{2} \sum_{k=1} ^n \frac{(V_k - V_k ^O)^2}{\sigma_k ^2} - \sum_{k=1} ^n I_k log\left(\frac{I_k}{M}\right)\right)$$
+
+Which it's equivalent to
+
+$$\hat{I}_{MAP} = argmin_{I} \left(\frac{1}{2} \sum_{k=1} ^n \frac{(V_k - V_k ^O)^2}{\sigma_k ^2} + \sum_{k=1} ^n I_k log\left(\frac{I_k}{M}\right)\right)$$
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/ALMA.jpg" alt="hi" class="inline"/>
 
