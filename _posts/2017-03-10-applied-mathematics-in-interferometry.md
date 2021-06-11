@@ -26,6 +26,15 @@ Using that logarithm is a strictly increasing function
 
 $$\hat{I}_{MAP} = argmax_{I} log(\mathbb{P}(V|I)) + log(\mathbb{P}(I))$$
 
+Let be $V^O$ a visibility vector observed on Fourier plane, then we define the noise as 
+$$r_k = V_k - V_k ^O$$ 
+that follows a normal distribution with null mean and variance $\sigma_k$.
+Assuming that are random variables, we have that
+$$\mathbb{P}(V|I) = \prod_{k=1} ^n exp(\frac{-(V_k - V_k ^O)^2}{2\sigma_k ^2})$$
+
+MEM algorithm assumes that the image follows a distribution $$\prod_{k=1} ^n (\frac{I_k}{M})^{-I_k}$$
+with $M$ the minimum value that can take a pixel.
+
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/ALMA.jpg" alt="hi" class="inline"/>
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/todas.png" alt="hi" class="inline"/>
