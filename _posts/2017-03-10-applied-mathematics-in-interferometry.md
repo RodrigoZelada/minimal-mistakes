@@ -2,10 +2,12 @@ Interferometry it's a Astronomic Resolution technique that uses many antennas to
 The resolution doesn't depend on antennas diameter, inded it depends of separation: while antennas further between them, greater it's the interferometer resolution, so images are more detailed. <b>ALMA</b> (<strong>Atacama Large Milimiter Array</strong>) it's a revolutionary interferometer, due to his 66 antennes between 6 and 12 meters.
 We will review briefly the <b>Maximimum Entropy Method</b> (<strong>MEM</strong>) and also study the relationship between spectrum and frequency.
 
-<figure>
-  <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/ALMA.jpg" alt="hi" class="inline"/>
-  <figcaption>ALMA Observatory.</figcaption>
-</figure>
+<center>
+  <figure>
+    <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/ALMA.jpg" alt="hi" class="inline"/>
+    <figcaption>ALMA Observatory.</figcaption>
+  </figure>
+</center>
 
 This post is based on 
 <ul>
