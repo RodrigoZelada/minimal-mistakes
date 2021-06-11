@@ -116,7 +116,7 @@ We observe first the lost function, that it's crearly decreasing. The next figur
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/test.png" alt="hi" class="inline"/>
 
-Mean error are respectively, Moving Average 1163.57, LST 443.72 and Prophet 885.08. This is consistent with what we observe in the figure, that LSTM with Tensrflow seems to be the most accurate.
+Mean error are respectively, Moving Average 1163.57, LST 443.72 and Prophet 885.08. This is consistent with what we observe in the figure, that LSTM with Tensorflow seems to be the most accurate.
 
 <h1> Predictions for next week </h1>
 
