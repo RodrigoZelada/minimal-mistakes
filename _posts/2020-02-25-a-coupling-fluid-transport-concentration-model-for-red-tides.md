@@ -4,13 +4,16 @@ This phenonomen has affected in Chile, particularly the Southest regions, produc
 
 We can describe algal concentration using <b>the Convection-Difussion equation</b>:
 
-$$frac{\partial c(x,t)}{\partial t}+ div(c u)- div(  D\nabla c) = F$$
+$$\frac{\partial c(x,t)}{\partial t}  + div(c u)- div(  D\nabla c) = F$$
 
-with <strong>$u$</strong> sea velocity, $D$ difussion constant at sea and $F$ source term.
+with <strong>$u$</strong> tides velocity, $D$ difussion constant at sea and $F$ source term.
 In the term $F$ is hidden the biological properties of algaes, like temperature, salinity, nutrients and wind direction.
 Due to lack of data, we will use $F=0$.
 
-El cálculo de la velocidad de marea se hará resolviendo numéricamente las ecuaciones de Navier-Stokes </p>
+Great, we have an equation to compute concentration. We are ready...NO, that formulation hides a great difficulty, even harder than convection-diffusion equation,
+and that it's the velocity. What value of velocity use? because it's the tide velocity, and this depend of time and each point of our domain, would be difficult measuring this value. However, here is when appear the Hydrodynamic of our model: <b>the Navier-Stokes equations</b> allows to compute velocity.
+
+
 \begin{align}
 \displaystyle{\frac{\partial u}{\partial t} + (u \cdot \nabla) u - \nu \Delta u}  & =    - \displaystyle{\nabla \frac{p}{\rho} + \frac{f}{\rho}} 
 \textrm{ en } \; \Omega 
@@ -19,4 +22,6 @@ El cálculo de la velocidad de marea se hará resolviendo numéricamente las ecu
 \label{eqn: DivergenciaNula}
 \end{align}
 
-Navier-Stokes equations and Convection difussion equations
+At first sight, the equations look similar, but the Navier-Stokes equations are 3D, while the convection-diffusion equation es 1D. 
+The velocity it's a vector field, while concentration it's a scalar field.
+
