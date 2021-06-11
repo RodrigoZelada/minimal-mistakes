@@ -14,7 +14,7 @@ In the term $F$ is hidden the biological properties of algaes, like temperature,
 Due to lack of data, we will use $F=0$.
 
 Great, we have an equation to compute concentration. We are ready...NO, that formulation hides a great difficulty, even harder than convection-diffusion equation,
-and that it's the velocity. What value of velocity use? because it's the tide velocity, and this depend of time and each point of our domain, would be difficult measuring this value. However, here is when appear the Hydrodynamic of our model: <b>the Navier-Stokes equations</b> allows to compute velocity.
+and that it's the velocity. What value of velocity use? because it's the tide velocity, and this depend of time and each point of our domain, would be difficult measuring this value. However, here is when appears the Hydrodynamics: <b>the Navier-Stokes equations</b> allows to compute velocity.
 
 $$\begin{align}
 \displaystyle{\frac{\partial u}{\partial t} + (u \cdot \nabla) u - \nu \Delta u}  & =    - \displaystyle{\nabla \frac{p}{\rho} + \frac{f}{\rho}} 
