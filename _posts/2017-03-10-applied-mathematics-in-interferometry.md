@@ -50,9 +50,9 @@ $$\hat{I}_{MAP} = argmin_{I} \left(\frac{1}{2} \sum_{k=1} ^n \frac{(V_k - V_k ^O
 However, it's necessary to introduce a penalization factor, in order to get values that have sense. 
 Then, the function that we want to minimize it's the following:
 
-$$f(I, V^O) = \xi ^2 (V,V^O) + \lambda S(I)$$
+$$f(I, V^O) = \chi ^2 (V,V^O) + \lambda S(I)$$
 
-where $\xi(V, V^O) = \frac{1}{2}  \sum_{k=1} ^n \frac{(V_k - V_k ^O)^2}{\sigma_k ^2}$ the minimum squares function
+where $\chi(V, V^O) = \frac{1}{2}  \sum_{k=1} ^n \frac{(V_k - V_k ^O)^2}{\sigma_k ^2}$ the minimum squares function
 and $S(I) = \sum_{k=1} ^n I_k log\left(\frac{I_k}{M}\right)$ the entropy function.
 
 <h3> Residual visibility </h3>
