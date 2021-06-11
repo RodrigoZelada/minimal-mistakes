@@ -44,6 +44,14 @@ Which it's equivalent to
 
 $$\hat{I}_{MAP} = argmin_{I} \left(\frac{1}{2} \sum_{k=1} ^n \frac{(V_k - V_k ^O)^2}{\sigma_k ^2} + \sum_{k=1} ^n I_k log\left(\frac{I_k}{M}\right)\right)$$
 
+However, it's necessary to introduce a penalization factor, in order to get values that have sense. 
+Then, the function that we want to minimize it's the following:
+
+$$f(I, V^O) = \xi ^2 (V,V^O) + \lambda S(I)$$
+
+where $\xi(V, V^O) = \frac{1}{2}  \sum_{k=1} ^n \frac{(V_k - V_k ^O)^2}{\sigma_k ^2}$ the minimum squares function
+and $S(I) = \sum_{k=1} ^n I_k log\left(\frac{I_k}{M}\right)$ the entropy function.
+
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/ALMA.jpg" alt="hi" class="inline"/>
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/todas.png" alt="hi" class="inline"/>
