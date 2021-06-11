@@ -1,6 +1,9 @@
+<h1> Introduction </h1>
+
 Name red tides it's a little cheating. Red tides is a phenomenon of harmful algal blooms ocurring along coastal regions, and not the sea surface coloration of red, like a lot of people believe. A best suited name it's <i>Harmful Algal Blooms (HAB)</i>.
 This phenonomen has affected in Chile, particularly the Southest regions, producing economic lossing and also afecting the people's health (due to toxines of this algaes).
 
+<h1> Mathematical Model </h1>
 
 We can describe algal concentration using <b>the Convection-Difussion equation</b>:
 
@@ -31,3 +34,20 @@ where
 At first sight, the equations look similar, but the Navier-Stokes equations are 3D, while the convection-diffusion equation es 1D. 
 The velocity it's a vector field, while concentration it's a scalar field.
 
+<h1> Finite Volume Method </h1>
+
+<h3> Navier-stokes discretization </h3>
+
+<p>Notation: $u = (U, V, W)$ the velocity vector field.
+We make a variable change $\displaystyle{P = \frac{p}{\rho} - g z}$, 
+where $z$ is the sea depth and $g$ gravity acceleration.
+Let be $\omega_i \subset \Omega$ finite volume, with $i \in \{1, \ldots, N\}$ and
+$N$ the number of Finite Volumnes, ie,  
+$\displaystyle{\Omega = \bigcup_{i=1} ^{N} \omega_i}$. 
+Let be $\omega_i$ a finite volume,  with boundary 
+$\displaystyle{\partial \omega_i = \bigcup_{j: \Gamma_{j} \text{ es cara de } \omega_i}  \Gamma_{j}}$. 
+Integrating over $\omega_i$ , 
+\[\displaystyle{\int_{\omega_i} \frac{\partial U}{\partial t} d\omega + \int_{\omega_i} u \cdot \nabla U d\omega -  
+\nu \int_{\omega_i} \Delta U d\omega + \int_{\omega_i} \frac{\partial P}{\partial x} d\omega = 0}\] </p>
+
+<h3> Convection-diffusion discrezitation </h3>
