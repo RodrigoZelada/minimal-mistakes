@@ -52,6 +52,18 @@ $$f(I, V^O) = \xi ^2 (V,V^O) + \lambda S(I)$$
 where $\xi(V, V^O) = \frac{1}{2}  \sum_{k=1} ^n \frac{(V_k - V_k ^O)^2}{\sigma_k ^2}$ the minimum squares function
 and $S(I) = \sum_{k=1} ^n I_k log\left(\frac{I_k}{M}\right)$ the entropy function.
 
+<h3> Residual visibility </h3>
+
+The residual visibility it's given by V^r := V^O - V. The visibility-image Theorem establishes a relationship by Fourier Transform
+
+$$V^r = V^O - F \cdot I$$
+
+where F is the Fourier Transform matrix. So,
+
+$$ V_k ^r = V_k ^O - \sum_{k=1} ^n f_{k, j} I_j $$
+
+<h1> Results </h1>
+
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/ALMA.jpg" alt="hi" class="inline"/>
 
 <img src="https://raw.githubusercontent.com/RodrigoZelada/RodrigoZelada.github.io/master/images/todas.png" alt="hi" class="inline"/>
